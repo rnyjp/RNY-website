@@ -1,0 +1,224 @@
+.sidebar{
+  width: 80px;
+  height: 100%;
+  padding-left: 10px;
+ 
+  float: left;
+  font-style: italic;
+  background-color: #2D358F;
+}
+
+
+.logodiv{
+  width: 52px;
+  height: 52px;
+  background-color:white;
+  top: 700%;
+  padding-left: 1px;
+  padding-top: 1px;
+    
+}
+
+.hamburger{
+  top: 50%;
+  left: 8%;
+  width: 50px;
+  height: 50px;
+}
+
+.art{
+  left: 80px;
+  top: 0px;
+}
+
+.name{
+  left: 1000px;
+  top: 0px;
+  width: 900px;
+  height: 700px;
+  padding-left: 150px;
+  
+  
+}
+
+.namefont{
+  font-family: "Segoe UI";
+  position: absolute;
+  top: 270px;
+  font-size: 85px;
+  color: #2D358F;
+  }
+
+  .logomain{
+    position: absolute;
+    top: 150px;
+  }
+
+  .about{
+    left: 150px;
+    top: 800px;
+    
+    width: 700px;
+    height: 300px;
+    
+  }
+
+  .aboutfont{
+    font-family: 'Courier New', monospace;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .sidepic{
+    left: 1000px;
+    top: 750px;
+  }
+
+  .services{
+
+    left: 100px;
+    top: 1100px;
+    
+    width: 1700px;
+    height: 750px;
+  }
+
+  .serviceheading{
+    color: #2D358F;
+    padding-top: 30px;
+    text-align: center;
+
+    padding-bottom: 50px;
+
+  }
+
+  .contact{
+
+    left: 100px;
+    top: 1850px;
+    
+    width: 1700px;
+    height: 500px;
+    
+  }
+
+  .contactheading{
+    color: #2D358F;
+    padding-top: 30px;
+    text-align: center;
+
+    padding-bottom: 50px;
+
+  }
+
+  .box{
+    
+    
+    width: 49.5%;
+
+  }
+
+  .sendbutton{
+    background-color: #2D358F;
+    color: white;
+  }
+
+  .contactfont{
+    font-family: 'Courier New', monospace;
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  .bottomstrip{
+    left: 80px;
+    top: 2450px;
+    
+    width: 100%;
+    
+    
+    background-color: #2D358F;   
+
+  }
+
+  .bottomfont{
+    font-family: 'Courier New', monospace;
+    text-align: justify;
+    font-size: 15px;
+    color: white;
+    
+  }
+
+  .myanimation{
+    width: 300px;
+    height: 100%;
+    background: #2D358F;
+    position: relative;
+    animation: mymove 5s infinite;
+    display: none;
+  }
+
+@keyframes mymove{
+  0%   {left: 0px;}
+
+ }
+
+
+.sidemenu{
+  top: 30%;
+  left: 7%;
+  background-color: #2D358F;
+  font-family: 'Courier New', monospace;
+  
+  color: white;
+  width: 250px;
+  height: 30%;
+
+  }
+
+  .buttonenquiry {
+    display: inline-block;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #2D358F;
+    font-family: 'Courier New', monospace;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .buttonenquiry span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonenquiry span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonenquiry:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonenquiry:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+
