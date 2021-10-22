@@ -1,10 +1,5 @@
 .sidebar{
-  width: 80px;
-  height: 100%;
-  padding-left: 10px;
  
-  float: left;
-  font-style: italic;
   background-color: #2D358F;
 }
 
@@ -27,8 +22,8 @@
 }
 
 .art{
-  left: 80px;
-  top: 0px;
+  left: 10px;
+  
 }
 
 .name{
@@ -43,8 +38,8 @@
 
 .namefont{
   font-family: "Segoe UI";
-  position: absolute;
-  top: 270px;
+  
+  
   font-size: 85px;
   color: #2D358F;
   }
@@ -142,9 +137,9 @@
 
   .bottomfont{
     font-family: 'Courier New', monospace;
-    text-align: justify;
+    
     font-size: 15px;
-    color: white;
+    color: black;
     
   }
 
@@ -216,6 +211,10 @@
     opacity: 1;
     right: 0;
   }
+
+  .tab {
+    tab-size: 10;
+}
 
 
 
